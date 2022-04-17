@@ -1,12 +1,28 @@
 {
   "name": "node-api-project",
   "version": "1.0.0",
-  "description": "",
+  "description": "simple project built in node js. it is practice purpose only",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Munna-Khandakar/NODE-API-PROJECT.git"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "API",
+    "CRUD"
+  ],
+  "author": "munna khandakar (munnashisad@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Munna-Khandakar/NODE-API-PROJECT/issues"
+  },
+  "homepage": "https://github.com/Munna-Khandakar/NODE-API-PROJECT#readme",
+  "dependencies": {
+    "uuid": "^8.3.2"
+  }
 }
